@@ -1,0 +1,17 @@
+[package]
+name = "web-rwkv-converter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+bytemuck = { version = "1.13", features = ["extern_crate_alloc"] }
+half = { version = "2.2", features = ["bytemuck"] }
+safetensors = "0.3.1"
+
+[dependencies.repugnant-pickle]
+git = "https://github.com/KerfuffleV2/repugnant-pickle"
+tag = "v0.0.1"
+features = ["torch"]

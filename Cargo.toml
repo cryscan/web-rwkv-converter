@@ -2,6 +2,13 @@
 name = "web-rwkv-converter"
 version = "0.1.1"
 edition = "2021"
+authors = ["Zhang Zhenyuan <cryscan@umich.edu>"]
+license = "MIT OR Apache-2.0"
+description = "Converts an RWKV PTH model to SafeTensors."
+homepage = "https://github.com/cryscan/web-rwkv-converter"
+repository = "https://github.com/cryscan/web-rwkv-converter"
+keywords = ["deep-learning", "LLM", "model", "rwkv"]
+categories = ["science"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

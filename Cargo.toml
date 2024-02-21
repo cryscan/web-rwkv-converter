@@ -12,8 +12,7 @@ half = { version = "2.2", features = ["bytemuck"] }
 safetensors = "0.4.1"
 
 [dependencies.repugnant-pickle]
-git = "https://github.com/KerfuffleV2/repugnant-pickle"
-tag = "v0.0.1"
+version = "0.0.1"
 features = ["torch"]
 
 [dev-dependencies]

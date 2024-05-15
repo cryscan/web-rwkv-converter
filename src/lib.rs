@@ -7,20 +7,6 @@ use repugnant_pickle::{
 };
 use safetensors::{Dtype, View};
 
-pub const RENAME: [(&str, &str); 4] = [
-    ("time_faaaa", "time_first"),
-    ("time_maa", "time_mix"),
-    ("lora_A", "lora.0"),
-    ("lora_B", "lora.1"),
-];
-
-pub const TRANSPOSE: [&str; 4] = [
-    "time_mix_w1",
-    "time_mix_w2",
-    "time_decay_w1",
-    "time_decay_w2",
-];
-
 struct Tensor {
     name: String,
     shape: Vec<usize>,
